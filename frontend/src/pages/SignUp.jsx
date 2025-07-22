@@ -31,7 +31,7 @@ const SignUp = () => {
       
       
       if(response.status === 201){
-        navigate('/home')
+        navigate('/')
       }      
     }catch(error){
       if(error?.response?.data?.error) {
